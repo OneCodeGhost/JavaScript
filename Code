@@ -1,0 +1,13 @@
+onclick()                             //单击事件
+onmouseover()                         //鼠标经过事件
+onmouseout()                          //鼠标移开事件
+onfocus()                             //获得焦点事件
+onblur()                              //失去焦点事件
+onselect()                            //内容选中事件
+onchange()                            //内容改变事件
+onload()                              //加载事件,写在body标签中
+window.onbeforeunload()=function(){   //卸载事件,写在script脚本中
+    return "";
+}
+
+parseInt()                             //解析一个字符串,并返回一个整数
