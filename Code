@@ -17,3 +17,15 @@ Math:
     floor()                            //向下取整,返回小于或等于的整数
     round()                            //四舍五入
     random()                           //随机数
+
+split()                                //分割数组
+concat()                               //数组连接
+join()                                 //指定分隔符连接元素
+reverse()                              //颠倒元素
+slice()                                //选定元素,针对数组
+sort():                                //数组排序
+    function sortNum(a,b) {
+        return b-a;    //降序:b-a,升序:a-b;
+    }
+    var myarr = new Array("80","16","50","6","100","1");
+    document.write(myarr.sort(sortNum));
