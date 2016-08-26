@@ -11,3 +11,9 @@ window.onbeforeunload()=function(){   //卸载事件,写在script脚本中
 }
 
 parseInt()                             //解析一个字符串,并返回一个整数
+
+Math:
+    ceil()                             //向上取整,返回大于或等于的整数
+    floor()                            //向下取整,返回小于或等于的整数
+    round()                            //四舍五入
+    random()                           //随机数
