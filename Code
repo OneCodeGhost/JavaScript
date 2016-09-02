@@ -46,4 +46,8 @@ history:
                 1       //等价于forward()
                 其他数值
     
-    
+document.documentElement.clientWidth;   //浏览器可视窗口的宽度   chrome及其第三方浏览器:window.innerWidth , window.innerHeight
+document.documentElement.clientHeidth;  //浏览器可视窗口的高度
+
+document.documentElement.scrollWidth;   //浏览器内容的宽度
+document.documentElement.scrollHeight;  //浏览器你日同的宽度
