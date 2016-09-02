@@ -50,4 +50,7 @@ document.documentElement.clientWidth;   //浏览器可视窗口的宽度   chrom
 document.documentElement.clientHeidth;  //浏览器可视窗口的高度
 
 document.documentElement.scrollWidth;   //浏览器内容的宽度
-document.documentElement.scrollHeight;  //浏览器你日同的宽度
+document.documentElement.scrollHeight;  //浏览器内容的高度
+
+document.documentElement.offsetWidth;   //clientWidth+滚动条+边框
+document.documentElement.offsetHeight;  //clientHeight+滚动条+边框
