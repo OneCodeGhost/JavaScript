@@ -54,3 +54,16 @@ document.documentElement.scrollHeight;  //浏览器内容的高度
 
 document.documentElement.offsetWidth;   //clientWidth+滚动条+边框
 document.documentElement.offsetHeight;  //clientHeight+滚动条+边框
+
+
+DOM中的事件对象:
+event.type                              //用于获取事件类型
+event.target                            //用于获取事件目标
+event.stopPropagation()                 //用于阻止事件冒泡
+event.preventDefault()                  //用于阻止事件的默认行为
+
+IE中的事件对象:
+event.type                              //用于获取事件类型
+event.srcElement                        //用于获取事件目标
+event.cancelBubble                      //用于阻止事件冒泡.设置布尔值,true为阻止,false为不阻止
+event.returnValue                       //用于阻止事件的默认行为.设置布尔值,false为阻止,true为不阻止
