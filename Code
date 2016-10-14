@@ -67,3 +67,5 @@ event.type                              //用于获取事件类型
 event.srcElement                        //用于获取事件目标
 event.cancelBubble                      //用于阻止事件冒泡.设置布尔值,true为阻止,false为不阻止
 event.returnValue                       //用于阻止事件的默认行为.设置布尔值,false为阻止,true为不阻止
+
+floor()                                 //向下取整,返回小于或等于函数参数的数
