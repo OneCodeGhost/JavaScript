@@ -9,6 +9,9 @@ onload()                              //加载事件,写在body标签中
 window.onbeforeunload()=function(){   //卸载事件,写在script脚本中
     return "";
 }
+onkeydown                             //按下键盘上的任意键触发,按住不放会重复触发
+onkeypress                            //按下键盘上的字符键触发,按住不放会重复触发
+onkeyup                               //释放键盘上的按键时触发
 
 parseInt()                             //解析一个字符串,并返回一个整数
 
